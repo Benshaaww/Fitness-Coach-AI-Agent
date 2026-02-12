@@ -1,0 +1,256 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Yo",
+                "Start",
+                "Menu"
+            ],
+            "responses": [
+                "Hello! I'm your AI Fitness Coach. I can help with workouts, nutrition, and motivation. What's your goal?",
+                "Hi there! Ready to crush some goals? Ask me for a workout plan, diet advice, or motivation!",
+                "Hey! I'm here to help you get fit. Do you want to build muscle, lose weight, or just stay healthy?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "I'm done",
+                "Quit",
+                "Exit"
+            ],
+            "responses": [
+                "Goodbye! Keep moving!",
+                "See you next time! Stay consistent!",
+                "Bye! Don't forget to hydrate!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Appreciate it",
+                "That helps"
+            ],
+            "responses": [
+                "You're welcome! Let's keep working.",
+                "Anytime! Stay focused.",
+                "No problem! consistency is key."
+            ]
+        },
+        {
+            "tag": "workout_plan",
+            "patterns": [
+                "Give me a workout plan",
+                "I want a gym routine",
+                "Full body workout?",
+                "Beginner workout plan",
+                "Need a routine",
+                "What should I do at the gym?"
+            ],
+            "responses": [
+                "I can create a plan for you. Are you looking for a 'Full Body', 'Push Pull Legs', or 'Upper Lower' split?",
+                "Sure! Do you want to focus on strength, hypertrophy (muscle growth), or endurance?"
+            ]
+        },
+        {
+            "tag": "weight_loss",
+            "patterns": [
+                "How do I lose weight?",
+                "I want to burn fat",
+                "Help me lose belly fat",
+                "Tips for weight loss",
+                "Cutting advice"
+            ],
+            "responses": [
+                "To lose weight, you need a calorie deficit. Focus on high protein, whole foods, and regular cardio. I can calculate your deficit calories if you tell me your weight.",
+                "Weight loss is about burning more than you consume. Try 30 mins of cardio daily and reduce processed sugars. Want me to calculate your calorie needs?"
+            ]
+        },
+        {
+            "tag": "muscle_gain",
+            "patterns": [
+                "How do I build muscle?",
+                "Bulking tips",
+                "How to get bigger arms?",
+                "Hypertrophy advice",
+                "I want to gain weight"
+            ],
+            "responses": [
+                "Progressive overload is key. Increase weight or reps each week. Eat 1.6g-2.2g of protein per kg of bodyweight.",
+                "To build muscle, lift heavy and eat in a slight surplus. Focus on compound movements like squats, deadlifts, and bench press."
+            ]
+        },
+        {
+            "tag": "calories",
+            "patterns": [
+                "How many calories should I eat?",
+                "Calorie deficit?",
+                "Maintenance calories?",
+                "Calculate my calories",
+                "What is my BMR?"
+            ],
+            "responses": [
+                "I can calculate that. I need your weight first. You can say 'My weight is X kg'."
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I feel lazy",
+                "I don't feel like working out",
+                "No motivation today",
+                "Make me go to the gym",
+                "I'm tired"
+            ],
+            "responses": [
+                "Discipline > Motivation. Just show up for 10 minutes. You'll feel better after.",
+                "Remember why you started. The only bad workout is the one that didn't happen.",
+                "Don't rely on motivation, rely on habit. Go crush it!"
+            ]
+        },
+        {
+            "tag": "diet_advice",
+            "patterns": [
+                "What should I eat?",
+                "High protein meals?",
+                "Healthy breakfast ideas?",
+                "Nutrition tips",
+                "Meal plan ideas"
+            ],
+            "responses": [
+                "Focus on lean proteins (chicken, fish, tofu), complex carbs (oats, rice, potatoes), and healthy fats (avocado, nuts).",
+                "Breakfast idea: Oatmeal with protein powder and berries, or 3 eggs with spinach and toast."
+            ]
+        },
+        {
+            "tag": "rest_recovery",
+            "patterns": [
+                "Is rest day important?",
+                "How many rest days?",
+                "Overtraining symptoms?",
+                "Should I workout every day?",
+                "Sleep calculation"
+            ],
+            "responses": [
+                "Rest is when muscles grow. Aim for at least 1-2 rest days per week.",
+                "Sleep is crucial. Aim for 7-9 hours. If you're sore or irritable, take a rest day."
+            ]
+        },
+        {
+            "tag": "save_weight",
+            "patterns": [
+                "My weight is",
+                "I weigh",
+                "Weight is"
+            ],
+            "responses": [
+                "Got it! I've updated your weight."
+            ]
+        },
+        {
+            "tag": "save_height",
+            "patterns": [
+                "My height is",
+                "I am tall",
+                "Height is"
+            ],
+            "responses": [
+                "Got it! I've updated your height."
+            ]
+        },
+        {
+            "tag": "bmi",
+            "patterns": [
+                "Calculate my BMI",
+                "What is my BMI",
+                "Am I overweight?"
+            ],
+            "responses": [
+                "I can calculate your BMI. Please make sure I have your height and weight."
+            ]
+        },
+        {
+            "tag": "secret_mode",
+            "patterns": [
+                "Do a backflip",
+                "Beast mode",
+                "Activate god mode",
+                "Who is the strongest?"
+            ],
+            "responses": [
+                "Accessing secret protocols..."
+            ]
+        },
+        {
+            "tag": "workout_options_all",
+            "patterns": [
+                "Everything",
+                "All of them",
+                "I want it all",
+                "Mix of everything",
+                "Hybrid training",
+                "Strength and hypertrophy",
+                "Both",
+                "All three"
+            ],
+            "responses": [
+                "Awesome! A hybrid approach is great. I recommend a 'Powerbuilding' split: Heavy compound lifts at the start (Strength), followed by isolation exercises (Hypertrophy).",
+                "To do everything, try concurrent training. Lift heavy 3 days a week, and do cardio 2 days a week. Don't forget to eat enough!"
+            ]
+        },
+        {
+            "tag": "workout_strength",
+            "patterns": [
+                "Strength",
+                "I want to get strong",
+                "Powerlifting",
+                "Lift heavy",
+                "Strength training"
+            ],
+            "responses": [
+                "For strength, focus on low reps (1-5) with heavy weight. Squats, Deadlifts, and Bench Press are your best friends.",
+                "Strength training requires long rest periods (3-5 mins) and heavy compound lifts. Try a 5x5 program."
+            ]
+        },
+        {
+            "tag": "workout_endurance",
+            "patterns": [
+                "Endurance",
+                "Cardio",
+                "Stamina",
+                "Running",
+                "I want to run a marathon"
+            ],
+            "responses": [
+                "For endurance, focus on high reps (15+) and aerobic activities like running, cycling, or rowing.",
+                "To build stamina, incorporate circuit training and steady-state cardio into your routine."
+            ]
+        },
+        {
+            "tag": "general_health",
+            "patterns": [
+                "Stay healthy",
+                "Just stay healthy",
+                "General fitness",
+                "Maintain weight",
+                "Be healthy",
+                "Maintenance"
+            ],
+            "responses": [
+                "Great goal! Consistency is key. Aim for 150 minutes of moderate activity per week and eat a balanced diet.",
+                "To stay healthy, focus on a mix of cardio and strength training, stay hydrated, and get enough sleep."
+            ]
+        }
+    ]
+}
